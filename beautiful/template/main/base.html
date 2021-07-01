@@ -1,0 +1,90 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Beautiful Website</title>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap">
+		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+		<link rel="stylesheet" href="{% static 'css/resumeable.css' %}">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		
+	</head>
+
+	<body>
+		<!-- EDIT CSS here! -->
+		<style type="text/css">
+
+		</style>
+
+		
+		<!-- Header -->
+		<header class="header" id="header">
+			<nav class="nav container">
+				<a href="#" class="nav_logo">TW</a>
+		<!-- Navigation -->
+				<div class="nav_menu" id="nav-menu">
+					<ul class="nav_list grid">
+						<li class="nav_item">
+							<a href="#" class="nav_link">
+								<i class="uil uil-home nav_icon"></i> Home
+							</a>
+						</li>
+						<li class="nav_item">
+							<a href="#about" class="nav_link">
+								<i class="uil uil-user-square nav_icon"></i> About
+							</a>
+						</li>
+						<li class="nav_item">
+							<a href="#skills" class="nav_link">
+								<i class="uil uil-file nav_icon"></i> Skills
+							</a>
+						</li>
+						<li class="nav_item">
+							<a href="#services" class="nav_link">
+								<i class="uil uil-briefcase nav_icon"></i> Services
+							</a>
+						</li>
+						<li class="nav_item">
+							<a href="#portfolio" class="nav_link">
+								<i class="uil uil-image nav_icon"></i> Portfolio
+							</a>
+						</li>
+						<li class="nav_item">
+							<a href="#contact" class="nav_link">
+								<i class="uil uil-message nav_icon"></i> Contact Me!
+							</a>
+						</li>
+					</ul>
+					<i class="uil uil-times nav_close" id="nav-close"></i>
+				</div>
+
+				<div class="nav_btns">
+					<div class="nav_toggle" id="nav-toggle">
+						<i class="uil uil-apps"></i>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- EDIT Block content here! -->
+		<div class="container">
+			{% load static %}
+			{% block content %}
+  			{% endblock %}
+		</div>
+		<!-- EDIT Footer here! -->
+		<footer>
+			<div class="container">
+				
+			</div>
+		</footer>
+
+		<script src="{% static 'javascript/main.js' %}">
+			
+		</script>
+	</body>
+</html>

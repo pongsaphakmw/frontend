@@ -1,0 +1,258 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+<div class="container">
+	<main class="main">
+		<!-- <link rel="stylesheet" href="{% static 'css/resumeable.css' %}"> -->
+		<section class="home section" id="home">
+			<div class="home_container grid">
+				<div class="home_content grid">
+					<div class="home_social">
+						<a href="https://github.com/pongsaphakmw/" target="_blank" class="home_social-icon">
+							<i class="uil uil-github"></i>
+						</a>
+						
+						<a href="https://www.linkedin.com/in/pongsaphak-maneewong-963179213/" target="_blank" class="home_social-icon">
+							<i class="uil uil-linkedin"></i>
+						</a>
+
+						<a href="https://www.instagram.com/taawunmw/" target="_blank" class="home_social-icon">
+							<i class="uil uil-instagram"></i>
+						</a>
+					</div>
+
+					<div class="home_img">
+						<svg class="home_blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+							<path fill="#0F62FE" d="M45.2,-68C59.5,-61.1,72.8,-50.2,78.3,-36.3C83.9,-22.4,81.7,-5.5,78.5,10.7C75.3,26.9,70.9,42.3,61.8,54.3C52.6,66.3,38.6,74.9,23.9,77.4C9.2,79.9,-6.1,76.3,-22.4,73C-38.7,69.7,-56.1,66.7,-67.9,56.8C-79.6,46.9,-85.8,30,-87,13.3C-88.2,-3.5,-84.6,-20.2,-78.1,-36.3C-71.7,-52.3,-62.5,-67.6,-49,-74.9C-35.6,-82.2,-17.8,-81.4,-1.2,-79.5C15.4,-77.7,30.9,-74.9,45.2,-68Z" transform="translate(100 100)" />
+							<!-- <img class="home_blob-img" x='12' y='18' xlink:href=""> -->
+						</svg>
+					</div>
+					<div class="home_data">
+						<h1 class="home_title">Hi, I'm Twan</h1>
+						<h3 class="home_subtitle">Fullstack developer</h3>
+						<p class="home_description">I'm just new to coding</p>
+						<a href="#contact" class="button button--flex">
+							Contact Me <i class="uil uil-message button_icon"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="home_scroll">
+					<a href="#about" class="home_scroll-button button--flex">
+						<i class="uil uil-mouse-alt home_scroll-mouse"></i>
+						<span class="home_scroll-name">Scroll down</span>
+						<i class="uil uil-arrow-down home_scroll-arrow"></i>
+					</a>
+				</div>
+			</div>
+
+		</section>
+		<section class="about section" id="about">
+			<h2 class="section_title">About Me</h2>
+			<span class="section_subtitle">My introduction</span>
+		
+			<div class="about_container container grid">
+				<img src="{% static 'img/My_IMG.jpg' %}" alt="" class="about_img">
+
+				<div class="about_data">
+					<p class="about_description">I like to coding.And now i learning about web developing this is my portfolio website by using HTML CSS JavaScript Python and SQL
+					</p>
+					<div class="about_info">
+						<span class="about-title">02+</span>
+						<span class="about_info-name">Years <br> experience</span>
+					</div>
+					<div class="about_info">
+						<span class="about-title">03+</span>
+						<span class="about_info-name">Completed <br> project</span>
+					</div>
+					<div class="about_info">
+						<span class="about-title">No</span>
+						<span class="about_info-name">Completed <br> work</span>
+					</div>
+				</div>
+				<div class="about_buttons">
+					<a download="#" href="#" class="button button--flex">
+						Download CV<i class="uil uil-download-alt button_icon"></i>
+					</a>
+				</div>
+			</div>
+	
+		</section>
+
+		<section class="skills section" id="skills">
+			<h2 class="section_title">Skills</h2>
+			<span class="section_subtitle">My technical level</span>
+
+			<div class="skill_container container grid">
+				<div>
+
+					<div class="skills_content skills_open">
+						<div class="skills_header">
+							<i class="uil uil-brackets-curly skills_icon"></i>
+
+							<div>
+								<h1 class="skills_title">Frontend developer</h1>
+								<span class="skills_subtitle">More than 3 months</span>
+							</div>
+
+							<i class="uil uil-angle-down skills_arrow"></i>
+						</div>
+
+						<div class="skills_list grid">
+							<div class="skills_data">
+								<div class="skills_titles">
+									<h3 class="skills_name">HTML</h3>
+									<span class="skills_number">70%</span>
+								</div>
+								<div class="skills_bar">
+									<span class="skills_percentage skills_html"></span>
+								</div>
+							</div>
+
+							<div class="skills_data">
+								<div class="skills_titles">
+									<h3 class="skills_name">CSS</h3>
+									<span class="skills_number">40%</span>
+								</div>
+								<div class="skills_bar">
+									<span class="skills_percentage skills_css"></span>
+								</div>
+							</div>
+
+							<div class="skills_data">
+								<div class="skills_titles">
+									<h3 class="skills_name">JavaScript</h3>
+									<span class="skills_number">30%</span>
+								</div>
+								<div class="skills_bar">
+									<span class="skills_percentage skills_javascript"></span>
+								</div>
+							</div>
+
+							<div class="skills_data">
+								<div class="skills_titles">
+									<h3 class="skills_name">React</h3>
+									<span class="skills_number">30%</span>
+								</div>
+								<div class="skills_bar">
+									<span class="skills_percentage skills_react"></span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+<!-- -----------Skill 2-------------->
+						<div class="skills_content skills_close">
+							<div class="skills_header">
+								<i class="uil uil-server-network-alt skills_icon"></i>
+	
+								<div>
+									<h1 class="skills_title">Backend developer</h1>
+									<span class="skills_subtitle">More than 2 years</span>
+								</div>
+	
+								<i class="uil uil-angle-down skills_arrow"></i>
+							</div>
+	
+							<div class="skills_list grid">
+								<div class="skills_data">
+									<div class="skills_titles">
+										<h3 class="skills_name">Python</h3>
+										<span class="skills_number">80%</span>
+									</div>
+									<div class="skills_bar">
+										<span class="skills_percentage skills_python"></span>
+									</div>
+								</div>
+	
+								<div class="skills_data">
+									<div class="skills_titles">
+										<h3 class="skills_name">Django</h3>
+										<span class="skills_number">70%</span>
+									</div>
+									<div class="skills_bar">
+										<span class="skills_percentage skills_django"></span>
+									</div>
+								</div>
+	
+								<div class="skills_data">
+									<div class="skills_titles">
+										<h3 class="skills_name">C</h3>
+										<span class="skills_number">70%</span>
+									</div>
+									<div class="skills_bar">
+										<span class="skills_percentage skills_c"></span>
+									</div>
+								</div>
+	
+								<div class="skills_data">
+									<div class="skills_titles">
+										<h3 class="skills_name">Java</h3>
+										<span class="skills_number">20%</span>
+									</div>
+									<div class="skills_bar">
+										<span class="skills_percentage skills_java"></span>
+									</div>
+								</div>
+	
+							</div>
+						</div>
+<!-- ----------Skill3--------- -->
+						<div>
+							<div class="skills_content skills_close">
+								<div class="skills_header">
+									<i class="uil uil-swatchbook skills_icon"></i>
+		
+									<div>
+										<h1 class="skills_titles">Desinger</h1>
+										<span class="skills_subtitle">More than 3 months</span>
+									</div>
+		
+									<i class="uil uil-angle-down skills_arrow"></i>
+								</div>
+		
+								<div class="skills_list grid">
+									<div class="skills_data">
+										<div class="skills_titles">
+											<h3 class="skills_name">Sketch</h3>
+											<span class="skills_number">10%</span>
+										</div>
+										<div class="skills_bar">
+											<span class="skills_percentage skills_sketch"></span>
+										</div>
+									</div>
+		
+									<div class="skills_data">
+										<div class="skills_titles">
+											<h3 class="skills_name">Photoshop</h3>
+											<span class="skills_number">70%</span>
+										</div>
+										<div class="skills_bar">
+											<span class="skills_percentage skills_photoshop"></span>
+										</div>
+									</div>
+
+									<div class="skills_data">
+										<div class="skills_titles">
+											<h3 class="skills_name">Unreal engine 4</h3>
+											<span class="skills_number">20%</span>
+										</div>
+										<div class="skills_bar">
+											<span class="skills_percentage skills_unreal4"></span>
+										</div>
+									</div>
+		
+								</div>
+							</div>
+
+						</div>
+					<!-- Contact Me! -->
+					
+				</div>
+			</div>
+		</section>
+
+	</main>
+	
+</div>
+{% endblock %}
