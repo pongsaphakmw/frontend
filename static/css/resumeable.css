@@ -315,6 +315,7 @@ img{
 .button--flex{
     display: inline-flex;
     align-items: center;
+    height: 5px;
 }
 
 .about_img{
@@ -474,4 +475,12 @@ img{
 
 .skills_open .skills_arrow{
     transform: rotate(-180deg);
+}
+
+/* REGISTER FORM */
+
+.register_form{
+    height: max-content;
+    background-color: var(--container-color);
+    font-family: var(--font-medium);
 }
