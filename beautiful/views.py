@@ -13,3 +13,7 @@ def Aboutpage(request):
 
 def Portfolio(request):
 	return render(request, 'main/portfolio.html')
+
+def Register(request):
+	return render(request, '/main/register.hmtl')
+	
