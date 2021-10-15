@@ -3,7 +3,7 @@
 {% block content %}
 <div class="container">
 	<main class="main">
-		<!-- <link rel="stylesheet" href="{% static 'css/resumeable.css' %}"> -->
+		<link rel="stylesheet" href="{% static 'css/resumeable.css' %}">
 		<section class="home section" id="home">
 			<div class="home_container grid">
 				<div class="home_content grid">
@@ -22,9 +22,20 @@
 					</div>
 
 					<div class="home_img">
-						<svg class="home_blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-							<path fill="#0F62FE" d="M45.2,-68C59.5,-61.1,72.8,-50.2,78.3,-36.3C83.9,-22.4,81.7,-5.5,78.5,10.7C75.3,26.9,70.9,42.3,61.8,54.3C52.6,66.3,38.6,74.9,23.9,77.4C9.2,79.9,-6.1,76.3,-22.4,73C-38.7,69.7,-56.1,66.7,-67.9,56.8C-79.6,46.9,-85.8,30,-87,13.3C-88.2,-3.5,-84.6,-20.2,-78.1,-36.3C-71.7,-52.3,-62.5,-67.6,-49,-74.9C-35.6,-82.2,-17.8,-81.4,-1.2,-79.5C15.4,-77.7,30.9,-74.9,45.2,-68Z" transform="translate(100 100)" />
-							<!-- <img class="home_blob-img" x='12' y='18' xlink:href=""> -->
+						<svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<mask id="mask0" mask-type="alpha">
+								<path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+								130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+								97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+								0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+							</mask>
+							<g mask="url(#mask0)">
+								<path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+								165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+								129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+								-0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+								<image class="home_blob-img" href="{% static 'img/My_IMG.jpg' %}"/>
+							</g>
 						</svg>
 					</div>
 					<div class="home_data">
@@ -84,7 +95,7 @@
 			<span class="section_subtitle">My technical level</span>
 
 			<div class="skill_container container grid">
-				<div>
+				<!-- <div> -->
 
 					<div class="skills_content skills_open">
 						<div class="skills_header">
@@ -248,11 +259,14 @@
 						</div>
 					
 					
-				</div>
+				<!-- </div> -->
 			</div>
 		</section>
-		<!-- Contact ME! -->
-		
+		<!-- Calculator -->
+		<section class="calculator section" id="calculator">
+			<h2 class="section_title">Calculator</h2>
+			
+		</section>
 
 	</main>
 	
